@@ -1,0 +1,72 @@
+{
+  "ecs7": true,
+  "runtimeVersion": "7",
+  "display": {
+    "title": "The Little Self",
+    "description": "don't panic, it's organic, everything hand made!",
+    "favicon": "favicon_asset",
+    "navmapThumbnail": "thumbnails/z.jpg"
+  },
+  "owner": "zCayel",
+  "contact": {
+    "name": "zCayel",
+    "email": "zcayel@gmail.com"
+  },
+  "main": "bin/index.js",
+  "tags": [
+    "art"
+  ],
+  "scene": {
+    "parcels": [
+      "0,1",
+      "1,1",
+      "0,0",
+      "1,0"
+    ],
+    "base": "0,0"
+  },
+  "spawnPoints": [
+    {
+      "name": "Spawn Point 3",
+      "default": true,
+      "position": {
+        "x": [
+          14,
+          16
+        ],
+        "y": [
+          0,
+          0
+        ],
+        "z": [
+          29,
+          31
+        ]
+      },
+      "cameraTarget": {
+        "x": 8,
+        "y": 1,
+        "z": 8
+      }
+    }
+  ],
+  "requiredPermissions": [
+    "ALLOW_TO_TRIGGER_AVATAR_EMOTE",
+    "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
+  ],
+  "featureToggles": {
+    "voiceChat": "enabled",
+    "portableExperiences": "enabled",
+    "nearbyVoiceChat": "enabled"
+  },
+  "skyboxConfig": {
+    "fixedTime": 43200
+  },
+  "source": {
+    "origin": "creator-hub",
+    "projectId": "8d0689e5-f8f1-4ca8-945b-7af4f3cc9542"
+  },
+  "rating": "T",
+  "creator": "",
+  "landscapeTerrain": true
+}
