@@ -168,7 +168,7 @@
             "position": {
               "x": 0,
               "y": 0,
-              "z": 0
+              "z": 2
             },
             "scale": {
               "x": 1,
@@ -208,9 +208,9 @@
         "520": {
           "json": {
             "position": {
-              "x": 0,
+              "x": 0.75,
               "y": 0,
-              "z": 0
+              "z": 1.5
             },
             "scale": {
               "x": 1,
@@ -486,7 +486,16 @@
         },
         "519": {
           "json": {
-            "states": []
+            "states": [
+              {
+                "clip": "wind",
+                "playing": true,
+                "weight": 1,
+                "speed": 1,
+                "loop": true,
+                "shouldReset": false
+              }
+            ]
           }
         },
         "520": {
@@ -522,6 +531,7 @@
       "data": {
         "517": {
           "json": {
+            "playing": true,
             "volume": 1,
             "audioClipUrl": "assets/scene/Audio/wave_02_cc0-11505__transitking__wavesound.mp3"
           }
@@ -536,6 +546,7 @@
         },
         "520": {
           "json": {
+            "playing": true,
             "volume": 1,
             "audioClipUrl": "assets/scene/Audio/wave_02_cc0-11505__transitking__wavesound.mp3"
           }
@@ -858,9 +869,6 @@
         "513": {
           "json": {}
         },
-        "514": {
-          "json": {}
-        },
         "515": {
           "json": {}
         },
@@ -877,9 +885,6 @@
           "json": {}
         },
         "521": {
-          "json": {}
-        },
-        "524": {
           "json": {}
         },
         "534": {
