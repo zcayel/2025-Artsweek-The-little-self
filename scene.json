@@ -17,13 +17,13 @@
     "art"
   ],
   "scene": {
+    "base": "2,2",
     "parcels": [
-      "0,1",
-      "1,1",
-      "0,0",
-      "1,0"
-    ],
-    "base": "0,0"
+      "2,3",
+      "3,3",
+      "2,2",
+      "3,2"
+    ]
   },
   "spawnPoints": [
     {
@@ -68,5 +68,8 @@
   },
   "rating": "T",
   "creator": "",
-  "landscapeTerrain": true
+  "landscapeTerrain": true,
+  "worldConfiguration": {
+    "name": "cayel.dcl.eth"
+  }
 }
